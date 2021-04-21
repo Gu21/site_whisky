@@ -60,7 +60,7 @@ li {
 }
 
 .background-header {
-  background-image: linear-gradient(to top, #000, #0002), url("../site_whisky/img/WISKY.jpg");
+  background-image: linear-gradient(to top, #000, #0002), url("img/bacardi_black.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -105,7 +105,7 @@ h2::after {
 }
 
 .banniere {
-  background-image: linear-gradient(to left, #000, #0002), url("../site_whisky/img/bacardi_black.jpg");
+  background-image: linear-gradient(to left, #000, #0002), url("img/WISKY.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
