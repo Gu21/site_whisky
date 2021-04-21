@@ -1,0 +1,302 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-transparent {
+  padding-top: 20px;
+}
+
+.nav-degustation {
+  font-family: "roboto", "arial", "sans-serif";
+  font-size: 2em;
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+  display: block;
+  margin: auto;
+}
+
+.nav {
+  margin-left: 150px;
+}
+
+.subtitle {
+  font-family: "roboto", "arial", "sans-serif";
+  font-size: 1.3em;
+  font-weight: 300;
+  margin-right: 20px;
+}
+
+li {
+  margin-right: 41px;
+}
+
+.box {
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.box-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box-title h1 {
+  color: #fff;
+  font-family: "roboto", "arial", "sans-serif";
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  font-size: 60px;
+}
+.box-title p {
+  color: #fff;
+  font-family: "roboto", "arial", "sans-serif";
+  font-weight: 300;
+}
+
+.background-header {
+  background-image: linear-gradient(to top, #000, #0002), url("../SASS/img/bacardi_black.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.section-chivas {
+  background-color: #e2bc74;
+  font-family: "Libre Baskerville", "arial", "sans-serif";
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  padding: 30px;
+}
+
+.section1 {
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.photo-chivas img {
+  width: 60%;
+  border-radius: 30px;
+}
+
+.chivas {
+  padding: 30px;
+}
+.chivas h2 {
+  text-align: center;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  border: 2px solid grey;
+  width: 30%;
+  margin: auto;
+}
+
+.paragraphe-chivas {
+  text-align: start;
+}
+
+.banniere {
+  background-image: linear-gradient(to left, #000, #0002), url("../SASS/img/WISKY.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.banniere-section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.title2 h2 {
+  font-family: "Libre Baskerville", "arial", "sans-serif";
+  font-weight: 400;
+  font-size: 210%;
+  letter-spacing: 0.2em;
+  padding: 30px;
+  color: #fff;
+}
+.title2 h2::after {
+  content: "";
+  display: block;
+  border: 2px solid #e2bc74;
+  width: 30%;
+  margin: auto;
+}
+
+.xs-paragraphesection2 p {
+  color: #fff;
+  font-family: "Libre Baskerville", "arial", "sans-serif";
+  font-weight: 300;
+}
+
+.title-section3 {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.title-section3 h3 {
+  font-family: "Libre Baskerville", "arial", "sans-serif";
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  padding: 30px;
+}
+.title-section3 h3::after {
+  content: "";
+  display: block;
+  border: 2px solid #e2bc74;
+  width: 25%;
+  margin: auto;
+}
+
+.whisky-section3 {
+  padding-right: 100px;
+}
+
+.title-whisky p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+.title-whisky .whisky-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.title-whisky span {
+  color: #e2bc74;
+}
+
+.gallery-section4 img {
+  width: 300px;
+}
+
+.gallery-whisky {
+  padding-top: 50px;
+}
+
+.section5 {
+  padding-top: 10px;
+  margin-top: 50px;
+  background-color: grey;
+}
+
+.contact {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.cave {
+  padding-top: 50px;
+  font-family: "roboto", "arial", "sans-serif";
+  font-weight: 300;
+}
+
+.paragraphe-section-5 {
+  padding-top: 38px;
+  color: #fff;
+  font-family: "roboto", "arial", "sans-serif";
+}
+.paragraphe-section-5 a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "roboto", "arial", "sans-serif";
+  font-weight: 300;
+}
+.paragraphe-section-5 i {
+  color: #e2bc74;
+}
+
+.cave-box {
+  color: #fff;
+}
+
+.cave-section-5 i {
+  color: #e2bc74;
+}
+
+footer {
+  background-color: #314658;
+}
+
+.copyright-footer {
+  color: grey;
+}
+.copyright-footer p {
+  text-align: center;
+}
+
+.favicon {
+  color: #e2bc74;
+}
+
+.footer-support {
+  display: flex;
+  justify-content: space-around;
+}
+
+i {
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1280px) {
+  .nav-degustation {
+    text-align: left;
+  }
+
+  .photo-chivas img {
+    width: 100%;
+  }
+
+  .section1 {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .whisky-section3 {
+    padding-right: 0;
+  }
+
+  .nav {
+    margin-left: 48px;
+  }
+
+  .xs-paragraphesection2 p {
+    color: #fff;
+    font-family: "Libre Baskerville", "arial", "sans-serif";
+    font-weight: 300;
+    margin-left: 10px;
+  }
+
+  .gallery-section4 img {
+    width: 240px;
+  }
+
+  .gallery {
+    text-align: center;
+  }
+
+  .mail {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 990px) {
+  .gallery-section4 img {
+    width: 253px;
+  }
+}/*# sourceMappingURL=style.css.map */
