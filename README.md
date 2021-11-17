@@ -2,7 +2,7 @@
 
 # site_whisky
 
-* Premier TP Bootstrap, analyse d'une maquette à reproduire avec une liberté pour le thème
+* Premier TP utilisation de Bootstrap, analyse d'une maquette à reproduire avec une liberté pour le thème
 * Intégration de la maquette avec Bootstrap
 * Sass
 
