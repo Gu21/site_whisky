@@ -53,9 +53,7 @@ body {
 
 }
 
-.menu {
-    //    margin-left: 160px; 
-}
+
 
 li {
     margin-right: 41px;
@@ -127,7 +125,7 @@ li {
 
 }
 
-.title-chivas {}
+
 
 // <!-- --------------PHOTO CHIVAS-------------------- -->
 
@@ -182,7 +180,7 @@ h2::after {
 
 .banniere {
 
-    background-image: linear-gradient(to left, $color2, #0002), url("img/WISKY.jpg");
+    background-image: linear-gradient(to left, $color2, #0002), url("./img/WISKY.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
@@ -220,7 +218,8 @@ h2::after {
         border: 2px solid #e2bc74;
         width: 30%;
         margin: auto;
-
+        margin-top: 10px;
+      
     }
 }
 

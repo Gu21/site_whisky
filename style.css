@@ -105,7 +105,7 @@ h2::after {
 }
 
 .banniere {
-  background-image: linear-gradient(to left, #000, #0002), url("img/WISKY.jpg");
+  background-image: linear-gradient(to left, #000, #0002), url("./img/WISKY.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
