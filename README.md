@@ -2,10 +2,10 @@
 
 # site_whisky
 
-* Premier TP utilisation de Bootstrap, analyse d'une maquette à reproduire avec une liberté pour le thème
-* Intégration de la maquette avec Bootstrap
+* First test using Bootstrap, analysis of a mockup to be reproduced with a freedom for the theme
+* Integration of the model with Bootstrap
 * Sass
 
-## Lien de la maquette
+## Link to the mockup
 
  https://gu21.github.io/site_whisky/
