@@ -2,7 +2,7 @@
 
 # site_whisky
 
-* First test using Bootstrap, analysis of a mockup to be reproduced with a freedom for the theme
+* First practical work using Bootstrap, analysis of a mockup to be reproduced with a freedom for the theme
 * Integration of the model with Bootstrap
 * Sass
 
