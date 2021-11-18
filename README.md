@@ -4,7 +4,7 @@
 
 * First practical work using Bootstrap, analysis of a mockup to be reproduced with a freedom for the theme
 * Integration of the mockup with Bootstrap
-* Sass
+* preprocessor SASS
 
 ## Link to the mockup
 
